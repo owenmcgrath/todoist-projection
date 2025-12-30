@@ -64,6 +64,7 @@ export function transformTodoistData(
         collapsed: project.collapsed,
         shared: project.shared,
         view_style: project.view_style,
+        sections: [], // No section support yet - all tasks in default section
         tasks: sortTasks(tasks),
       };
     })
